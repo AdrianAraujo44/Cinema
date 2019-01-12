@@ -1,0 +1,135 @@
+/*login*/
+        .cont{
+                background-image:url("../img/fundoMenu.jpg");
+                background-size:100% 100%;
+                height: 100%;
+                width: 100%;
+                position:absolute;
+            }
+            .row-top{
+                margin-top:170px;
+            }
+            .form-group{
+                background-color:#5d5f60;
+                padding:15px;
+                color:white;
+                width:220px;
+                border-radius: 5px;
+            }
+            p{
+                text-align: center;
+            }
+            .btn{
+                width: 100px;      
+            }
+/*Menu Lateral*/
+.navbar-inverse{
+    padding:10px;
+}
+.nav-stacked{
+    background-color:#211f1f;
+    width: 250px;
+    margin-left: -5px;
+}
+
+.dropdown-menu{
+    background-color:#211f1f;
+}
+.dropdown-menu > li > a{
+    color:white;
+}
+#logo{
+    border-radius:5px;
+}
+body{
+    background-color:#4d4b5c;
+    overflow-x: hidden;
+}
+.linha-menu-lateral{
+    font-size:20px;
+    border-bottom: 1px solid #000000;
+    padding:5px;
+   margin-right: 10px;
+}
+/**/
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    box-shadow: 7px 7px 5px #363434;
+    border-radius:10px;
+    z-index: 1000;
+    position:absolute;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background:#211f1f ;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position:absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+    #wrapper.toggled {
+        padding-left: 250px;
+    }
+    #sidebar-wrapper {
+        width: 0;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+.menu{
+margin-right: 200px;
+    padding: 30px;
+    
+}
+#exemplo2{
+    float:right;
+    font-size:20px;
+    padding: -2px;
+    margin-top:-40px;
+}
+
+/*Fim do Menu Lateral*/
+
+

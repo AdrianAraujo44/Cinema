@@ -1,0 +1,65 @@
+.logoadm{
+				border-radius:20px;
+			
+			}
+            .t{
+               margin-top:-30px;
+                background-color:#353131;
+            }
+            .f{
+                background-color:white;
+                border-radius: 10px;
+                padding: 50px;
+                 width: 90%;
+            }
+            
+            #v{
+                margin-left:150px;
+                margin-top:-25px;
+            }    
+            
+            .g{
+               margin-left:350px;
+                margin-top:-35px;
+            }
+            .botao{
+                float:right;
+            }
+            
+            .r{
+                background-color:#888282;
+            }
+            .ner{
+                background-color: #337ab7;
+                height: auto;
+                border-radius:5px;
+              
+            }
+            .pa{
+                color:white;   
+            }
+            .color{
+                background-color: white;
+                height: auto;
+                border-radius:15px;
+                box-shadow:1px 2px 5px #716767;
+            }
+           
+ input[type='file'] {
+                display: none
+            }
+            .labelUpload{
+                margin:0px;
+            }
+label {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 7px 12px
+}
+label:hover{
+    background-color: #177abc;
+}
+
